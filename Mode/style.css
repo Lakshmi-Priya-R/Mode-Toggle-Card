@@ -1,0 +1,59 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+.cards{
+    display: flex;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+}
+
+.card.light {
+    background-color: #fff;
+    color: #000;
+    margin-left: 100px;
+}
+
+.card.dark {
+    background-color: #333;
+    color: #fff;
+}
+
+.image{
+    width: 300px;
+    height: 200px;
+    border-radius: 10%;
+
+}
+
+.toggle-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.toggle-button.light {
+    background-color: #000;
+    color: #fff;
+}
+
+.toggle-button.dark {
+    background-color: #fff;
+    color: #000;
+}
